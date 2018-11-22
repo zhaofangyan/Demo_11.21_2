@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="580b4a4a-9a33-41b6-9c1c-76cded3ed659" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:9999/calculatorservice/metadata" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadata.xsd" MetadataType="Schema" ID="74c1029a-206f-4ada-b7d2-fad081bef339" SourceId="1" SourceUrl="http://127.0.0.1:9999/calculatorservice/metadata?xsd=xsd2" />
+    <MetadataFile FileName="metadata1.xsd" MetadataType="Schema" ID="5208f125-a557-43a3-9578-d838f294bde5" SourceId="1" SourceUrl="http://127.0.0.1:9999/calculatorservice/metadata?xsd=xsd0" />
+    <MetadataFile FileName="metadata2.xsd" MetadataType="Schema" ID="1355d373-efb1-4aff-acab-17a1a2813b97" SourceId="1" SourceUrl="http://127.0.0.1:9999/calculatorservice/metadata?xsd=xsd1" />
+    <MetadataFile FileName="CalculatorService.wsdl" MetadataType="Wsdl" ID="6161ea18-7b18-4c28-a4c8-3cc013da6177" SourceId="1" SourceUrl="http://127.0.0.1:9999/calculatorservice/metadata" />
+    <MetadataFile FileName="metadata.wsdl" MetadataType="Wsdl" ID="d87f6581-6d8b-4b0b-b6a2-2d26b9bff8b2" SourceId="1" SourceUrl="http://127.0.0.1:9999/calculatorservice/metadata?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
